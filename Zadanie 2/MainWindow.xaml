@@ -1,0 +1,26 @@
+﻿<Window x:Class="Zadanie_2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Zadanie_2"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        <TextBox x:Name="TexA" Grid.Row="0" Margin="30"></TextBox>
+        <TextBlock Grid.Row="0" Margin="0,0,82,85">Значение a=</TextBlock>
+        <TextBox x:Name="TexB" Grid.Row="1" Margin="30"></TextBox>
+        <TextBlock Grid.Row="1" Margin="0,0,82,85">Значение b=</TextBlock>
+        <TextBlock Grid.Row="2" Margin="0,0,82,85">Результат:</TextBlock>
+        <TextBox x:Name="TexRE" Grid.Row="2" Margin="30" ></TextBox>
+        <Button   Grid.Row="3"
+                Content="Рассчитать" Click="Button_Click"></Button>
+        <Grid ShowGridLines="True"></Grid>
+    </Grid>
+</Window>
