@@ -28,7 +28,7 @@ namespace Zadanie_5
         private void Button_Click(object sender, RoutedEventArgs e)
         {
            int x = Convert.ToInt32(TexA.Text);
-            double y = Convert.ToInt32(TexB.Text);
+            int y = Convert.ToInt32(TexB.Text);
             string s = "";
             if(x<=25 && y<=50 && x>=-25 && y>=-50)
             {
